@@ -1,11 +1,20 @@
 <template>
-    <div id="main-slider">
+    <div id="main_slider">
         <slick ref="slick" :options="slickOptions">
             <a href="http://placehold.it/320x120">
                 <img src="http://placehold.it/320x120" alt="">
             </a>
-            <a href="http://placehold.it/420x220">
-                <img src="http://placehold.it/420x220" alt="">
+            <a href="http://placehold.it/320x120">
+                <img src="http://placehold.it/320x120" alt="">
+            </a>
+            <a href="http://placehold.it/320x120">
+                <img src="http://placehold.it/320x120" alt="">
+            </a>
+            <a href="http://placehold.it/320x120">
+                <img src="http://placehold.it/320x120" alt="">
+            </a>
+            <a href="http://placehold.it/320x120">
+                <img src="http://placehold.it/320x120" alt="">
             </a>
         </slick>
     </div>
@@ -22,7 +31,7 @@ export default {
             return {
                     slickOptions: {
                         //options can be used from the plugin documentation
-                        slidesToShow: 4,
+                        slidesToShow: 2,
                         infinite: true,
                         accessibility: true,
                         adaptiveHeight: false,

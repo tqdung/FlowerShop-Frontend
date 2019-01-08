@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BootstrapVue from 'bootstrap-vue';
 import Slick from 'vue-slick';
 import '@/assets/scss/style.scss';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue, Slick);

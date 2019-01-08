@@ -1,4 +1,4 @@
-#top-header{
+#top_header{
     .header-topbar{
         min-height: .520833333in;
         display: flex;
@@ -85,7 +85,7 @@
             &-left{
                 .mega-menu {
                     position: absolute;
-                    display: none;
+                    opacity: 0;
                     left: 0;
                     width: 100%;
                     top: 110%;
@@ -93,6 +93,7 @@
                     background-color: white;
                     visibility: hidden;
                     border-style: none;
+                    z-index: 999;
 
                     text-align: left;
                     padding-top: .9375pc 20px;;
@@ -145,7 +146,7 @@
                                 visibility: visible;
                                 transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
                                 top: 100%;
-                                display: block;
+                                opacity: 1;
                             }
                         }
                     }

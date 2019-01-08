@@ -1,5 +1,5 @@
 <template>
-    <div id="top-header">
+    <div id="top_header">
         <div class="header-topbar">
             <b-container>
                 <b-row>
