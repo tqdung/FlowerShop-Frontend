@@ -46,6 +46,9 @@
                                     <li><router-link to="/">Home</router-link></li>
                                     <li>
                                         <b-link to="categories" id="category">Categories &nbsp; <i class="fas fa-caret-down"/></b-link>
+                                        
+                                        <mega-menu></mega-menu>
+                                        
                                         <!-- <div class="mega-menu">
                                             <b-row>
                                                 <b-col lg=3 md=3 sm=12 cols=12 v-for="category in subCategories" :key="category.title">
@@ -88,7 +91,7 @@
                                 <div class="search"><a href="#"><i class="fas fa-search"></i></a></div>
                                 <div class="cart"><a href=""><i class="fas fa-shopping-cart"></i></a></div>
                             </div>
-                            <mega-menu></mega-menu>
+                            
                         </div>
                     </b-col>
                 </b-row>

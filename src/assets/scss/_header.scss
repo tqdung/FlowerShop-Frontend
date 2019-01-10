@@ -115,12 +115,11 @@
                     }
                     li{
                         &:hover{                             
-                            // .mega-menu{
-                            //     visibility: visible;
-                            //     top: 100%;
-                            //     opacity: 1;
-                            //     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-                            // }
+                            #mega_menu{
+                                visibility: visible;
+                                top: 100%;
+                                opacity: 1;
+                            }
                         }
                     }
                 }
