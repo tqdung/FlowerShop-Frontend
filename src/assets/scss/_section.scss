@@ -1,0 +1,178 @@
+$yellow_primary: #e6c302;
+
+#main_section{
+    width: 100%;
+
+    .section-banner{
+        width: 100%;
+        display: table;
+        text-align: left;
+        margin-bottom: 60px;
+        .banner-row {
+            width: 100%;
+        }
+        .banner-text{
+            background-color: #f7f7f7;
+            display: table-cell;
+            vertical-align: middle;
+            width: 50%;
+            padding: 0 63.75pt;
+
+            h4{
+                font-weight: 300;
+            }
+            h3{
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: #999;
+            }
+        }
+        .banner-image{
+            background-color: #f7f7f7;
+            display: table-cell;
+            vertical-align: middle;
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .section-product{
+        padding: 30px 60px;
+        margin-bottom: 60px;
+        .block-top{
+            text-align: center;
+            color: #333333;
+            h4{
+                font-weight: 700;
+                line-height: 24pt;
+                font-size: 32px;
+                margin-bottom: 25px;
+            }
+
+            ul{
+                font-family: "Poppins", sans-serif;
+                font-size: 14px;
+                line-height: 1.85714;
+                color: #666666;
+
+                display: flex;
+                text-align: center;
+                list-style: none;
+                justify-content: center;
+                padding: 0;
+                li{
+                    font-weight: 500;
+                    &:after{
+                        content: "";
+                        margin-left: 50px;
+                    }
+                    &:last-child::after{
+                        content: "";
+                        margin-left: 0;
+                    }
+                    a{
+                        color: #666666;
+                        text-decoration: none;
+                        &:hover{
+                            color: #e6c302
+                        }
+                    }
+                }
+            }
+        }
+
+        .product-card{
+            width: 100%;
+
+            .product-rating{
+                color: $yellow_primary;
+            }
+            .content-price{
+                width: 100%;
+                &-new{
+                    font-weight: 700;
+                    color: black;
+                }
+                &-old{
+                    text-decoration: line-through;
+                    margin-left: 5px;
+                }
+            }
+
+            h5{
+                font-size: 14px;
+                color: #333333;
+                font-weight: 400;
+            }
+
+            a{
+                color: #666666;
+                text-decoration: none;
+                &:hover{
+                    color: $yellow_primary;
+                }
+            }
+        }
+    }
+
+    .section-newsletter{
+        padding: 60px 0;
+        background-color: #f7f7f7;
+
+        input{
+            border-radius: 0px;
+            height: 50px;
+        }
+        button{
+            border-radius: 0px;
+            background-color: $yellow_primary;
+            color: white;
+            font-weight: 700;
+            border: none;
+            padding: 0 30px;
+            line-height: 3.125pc;
+            text-transform: uppercase;
+        }
+
+        .block-newsletter{
+            width: 100%;
+            height: 200px;
+            
+            h4{
+                font-weight: 700;
+                font-size: 32px;
+                color: #333333;
+                margin-bottom: 20px;
+            }
+
+            p{
+                color: #999;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .button-custome{
+        background-color: #e6c302;
+        border: none;
+        height: 50px;
+        width: 150px;
+        font-weight: 500;
+        color: white;
+
+        cursor: pointer;
+        &:focus{
+            outline: none;
+            border: none;
+        }
+        &:hover{
+            background-color: #333333;
+            transition: all 0.5s;
+        }
+    }
+}
