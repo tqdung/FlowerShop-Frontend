@@ -66,6 +66,25 @@
                 </div>
             </b-container>
         </div>
+
+        <div class="section-gallery">
+            <b-container>
+                <div class="text-center">
+                    <h4>Gallery</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ut labore et dolore</p>
+                </div>
+
+                <div class="gallery-list">
+                    <b-row>
+                        <b-col cols="2" v-for="(gallery, index) in Galleries" :key="index">
+                            <div class="gallery-item">
+                                <img width="100%;" :src="gallery.img_src" alt="gallery">
+                            </div>
+                        </b-col>
+                    </b-row>
+                </div>
+            </b-container>
+        </div>
     </div>
 </template>
 
@@ -128,6 +147,27 @@ export default {
                     name: 'BOUQUET HYDRANGEA - WHITE',
                     price: 68.68,
                     sale: false
+                }
+            ],
+
+            Galleries: [
+                {
+                    img_src: require('@/assets/images/gallery/1.jpg')
+                },
+                {
+                    img_src: require('@/assets/images/gallery/2.jpg')
+                },
+                {
+                    img_src: require('@/assets/images/gallery/3.jpg')
+                },
+                {
+                    img_src: require('@/assets/images/gallery/4.jpg')
+                },
+                {
+                    img_src: require('@/assets/images/gallery/5.jpg')
+                },
+                {
+                    img_src: require('@/assets/images/gallery/6.jpg')
                 }
             ]
         }

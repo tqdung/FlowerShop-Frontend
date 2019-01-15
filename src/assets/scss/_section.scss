@@ -157,6 +157,27 @@ $yellow_primary: #e6c302;
         }
     }
 
+    .section-gallery{
+        padding: 60px 0;
+        width: 100%;
+        h4{
+            font-weight: 700;
+            font-size: 32px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        .gallery-list{
+            width: 100%;
+            padding: 20px 0;
+            
+            .gallery-item{
+                // margin-left: 100px;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+            }
+        }
+    }
+
     .button-custome{
         background-color: #e6c302;
         border: none;
