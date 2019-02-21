@@ -23,7 +23,7 @@
                             <ul>
                                 <li><a href="#">Account</a></li>
                                 <li><a href="#">Register</a></li>
-                                <li><a href="#">Login</a></li>
+                                <li><b-link to="/login">Login</b-link></li>
                                 <li><a href="#">Whishlists</a></li>
                             </ul>
                         </div>
